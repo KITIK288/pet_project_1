@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор степени</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="theme-button">
+    <button id="themeToggle">☀️</button>
+</div>
+<div class="container">
+    <h1>Возведение числа в степень</h1>
+    <h2>Введите число</h2>
+    <input type="number" id="base" placeholder="Число" required>
+    <h2>Введите степень</h2>
+    <input type="number" id="exponent" placeholder="Степень числа" required>
+    <button onclick="calculate_step()">Вычислить</button>
+    <div class="result" id="result"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
